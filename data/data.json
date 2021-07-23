@@ -1,0 +1,284 @@
+{
+    "posts": [
+        {
+            "id" : "sp1" ,
+            "img" : { "image":"../image/hublot1.png", "image1":"../image/hublot1-1.png"} ,
+            "price" : 500 ,
+            "color" : {"a":"Yellow brown", "b":"Grey"},
+            "label" : "HL-01",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp2" ,
+            "img" : {"image":"../image/hublot2.png", "image1":"../image/hublot2-2.png"},
+            "price" : 400,
+            "color" : {"a":"Green", "b":"Blue"},
+            "label" : "HL-02",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp3" ,
+            "img" : {"image":"../image/hublot3.png", "image1":"../image/hublot3-3.png"},
+            "price" : 500,
+            "color" : {"a":"White", "b":"Black"},
+            "label" : "HL-03",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp4" ,
+            "img" : {"image":"../image/hublot4.png", "image1":"../image/hublot4-4.png"},
+            "price" : 500,
+            "color" : {"a":"Blue", "b":"Grey"},
+            "label" : "HL-04",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp5" ,
+            "img" : {"image":"../image/hublot7.png", "image1":"../image/hublot7-7.png"},
+            "price" : 500,
+            "color" : {"a":"Yellow", "b":"Blue"},
+            "label" : "HL-07",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp6" ,
+            "img" : {"image":"../image/hublot8.png", "image1":"../image/hublot8-8.png"},
+            "price" : 500,
+            "color" : {"a":"GREY", "b":"Black"},
+            "label" : "HL-08",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp7" ,
+            "img" : {"image":"../image/hublot10.png", "image1":"../image/hublot10-1.png"},
+            "price" : 500,
+            "color" : {"a":"Blue white", "b":"Blue yellow"},
+            "label" : "HL-10",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp8" ,
+            "img" : {"image":"../image/hublot12.png", "image1":"../image/hublot12-1.png"},
+            "price" : 500,
+            "color" : {"a":"Black white", "b":"White"},
+            "label" : "HL-12",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp9" ,
+            "img" : {"image":"../image/hublot16.png", "image1":"../image/hublot16-1.png"},
+            "price" : 500,
+            "color" : {"a":"Blue grey", "b":"Blue yellow"},
+            "label" : "HL-16",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp10" ,
+            "img" : {"image":"../image/hublot19.png", "image1":"../image/hublot19-1.png"},
+            "price" : 500,
+            "color" : {"a":"Blue ", "b":"Red"},
+            "label" : "HL-19",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+        {
+            "id" : "sp11" ,
+            "img" : {"image":"../image/hublot21.png", "image1":"../image/hublot21-1.png"},
+            "price" : 500,
+            "color" : {"a":"Yellow", "b":"Green"},
+            "label" : "HL-21",
+            "brand" : "HUBLOT",
+            "decription" : "Hublot "
+        },
+       
+        {
+            "id" : "sp14" ,
+            "img" : {"image":"../image/patek1.jpg", "image1":"../image/patek1-1.jpg"},
+            "price" : 500,
+            "color" : {"a":"Xanh biển", "b":"Vàng nâu"},
+            "label" : "PP-01",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp15" ,
+            "img" : {"image":"../image/patek2.jpg", "image1":"../image/patek2-2.jpg"},
+            "price" : 500,
+            "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
+            "label" : "PP-02",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp16" ,
+            "img" : {"image":"../image/patek3.jpg", "image1":"../image/patek3-3.jpg"},
+            "price" : 500,
+            "color" : {"a":"Nâu xám", "b":"Vàng nâu"},
+            "label" : "PP-03",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp17" ,
+            "img" : {"image":"../image/patek4.jpg", "image1":"../image/patek4-4.jpg"},
+            "price" : 500,
+            "color" : {"a":"Vàng đen", "b":"Xanh trắng"},
+            "label" : "PP-04",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp18" ,
+            "img" : {"image":"../image/patek5.jpg", "image1":"../image/patek5-5.jpg"},
+            "price" : 500,
+            "color" : {"a":"Hồng xám", "b":"Hồng vàng"},
+            "label" : "PP-05",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp19" ,
+            "img" : {"image":"../image/patek6.jpg", "image1":"../image/patek6-6.jpg"},
+            "price" : 500,
+            "color" : {"a":"Hồng vàng", "b":"Trắng vàng"},
+            "label" : "PP-06",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp20" ,
+            "img" : {"image":"../image/patek7.jpg", "image1":"../image/patek7-7.jpg"},
+            "price" : 500,
+            "color" : {"a":"Hồng vàng", "b":"Hồng xám"},
+            "label" : "PP-07",
+            "brand" : "PATEK-PHILIPE",
+            "decription" : "PATEK PHILIPE "
+        },
+        {
+            "id" : "sp24" ,
+            "img" : {"image":"../image/tag1.png", "image1":"../image/tag1-1.png"},
+            "price" : 500,
+            "color" : {"a":"Đen vàng", "b":"Đen xám"},
+            "label" : "Tag-01",
+            "brand" : "TAG-HEUER",
+            "decription" : "TAG HEUER"
+        },
+        {
+            "id" : "sp25" ,
+            "img" : {"image":"../image/tag2.png", "image1":"../image/tag2-2.png"},
+            "price" : 500,
+            "color" : {"a":"Đen", "b":"Đen Dương"},
+            "label" : "Tag-02",
+            "brand" : "TAG-HEUER",
+            "decription" : "TAG HEUER"
+        },
+        {
+            "id" : "sp26" ,
+            "img" : {"image":"../image/tag3.png", "image1":"../image/tag3-3.png"},
+            "price" : 500,
+            "color" : {"a":"Nâu", "b":"Trắng"},
+            "label" : "Tag-03",
+            "brand" : "TAG-HEUER",
+            "decription" : "TAG HEUER"
+        },
+        {
+            "id" : "sp27" ,
+            "img" : {"image":"../image/tag4.png", "image1":"../image/tag4-4.png"},
+            "price" : 500,
+            "color" : {"a":"Xanh lục", "b":"Xanh lam"},
+            "label" : "Tag-04",
+            "brand" : "TAG-HEUER",
+            "decription" : "TAG HEUER"
+        },
+        {
+            "id" : "sp28" ,
+            "img" : {"image":"../image/tag5.png", "image1":"../image/tag5-5.png"},
+            "price" : 500,
+            "color" : {"a":"Xanh lam", "b":"Đỏ"},
+            "label" : "Tag-05",
+            "brand" : "TAG-HEUER",
+            "decription" : "TAG HEUER"
+        },
+        {
+            "id" : "sp29" ,
+            "img" : {"image":"../image/tag6.png", "image1":"../image/tag6-6.png"},
+            "price" : 500,
+            "color" : {"a":"Nâu", "b":"Đen"},
+            "label" : "Tag-06",
+            "brand" : "TAG-HEUER",
+            "decription" : "TAG HEUER"
+        },
+        {
+            "id" : "sp12" ,
+            "img" : {"image":"../image/audemars2.jpg", "image1":"../image/audemars2-2.jpg"},
+            "price" : 500,
+            "color" : {"a":"Cam", "b":"Xanh"},
+            "label" : "AP-02",
+            "brand" : "AUDEMARS-PIGUET",
+            "decription" : "AUDEMARS PIGUET "
+        },
+        {
+            "id" : "sp13" ,
+            "img" : {"image":"../image/audemars3.jpg", "image1":"../image/audemars3-3.jpg"},
+            "price" : 50,
+            "color" : {"a":"Yellow", "b":"Green"},
+            "label" : "AP-03",
+            "brand" : "AUDEMARS-PIGUET",
+            "decription" : "AUDEMARS PIGUET "
+        },
+        {
+            "id" : "sp21" ,
+            "img" : {"image":"../image/vacheron1.jpg", "image1":"../image/vacheron1-1.jpg"},
+            "price" : 500,
+            "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
+            "label" : "VC-01",
+            "brand" : "VACHERON-CONSTANTIN",
+            "decription" : "VACHERON CONSTANTIN "
+        },
+        {
+            "id" : "sp22" ,
+            "img" : {"image":"../image/vacheron2.jpg", "image1":"../image/vacheron2-2.jpg"},
+            "price" : 500,
+            "color" : {"a":"Vàng nâu", "b":"Vàng hồng"},
+            "label" : "VC-02",
+            "brand" : "VACHERON-CONSTANTIN",
+            "decription" : "VACHERON CONSTANTIN "
+        },
+        {
+            "id" : "sp23" ,
+            "img" : {"image":"../image/vacheron3.jpg", "image1":"../image/vacheron3-3.jpg"},
+            "price" : 500,
+            "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
+            "label" : "VC-03",
+            "brand" : "VACHERON-CONSTANTIN",
+            "decription" : "VACHERON CONSTANTIN "
+        }
+
+    ],
+    "watch":[
+        {
+            "id" : "w1" ,
+            "img" : {"image":"./image/hublot.png"},
+            "price" : "500 Triệu",
+            "label" : "RL 01 ",
+            "decription" : "Hublot"
+        },
+        {
+            "id" : "w1" ,
+            "img" : {"image":"./image/hublot.png"},
+            "price" : "500 Triệu",
+            "label" : "RL 01 ",
+            "decription" : "Hublot"
+        }
+    ]
+    
+}

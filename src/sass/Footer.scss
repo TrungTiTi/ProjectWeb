@@ -1,0 +1,97 @@
+.footer{
+    width: 100%;
+    // height: 340px;
+    background-color: black;
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 10%;
+        h3{
+            color: rgb(255, 187, 0);
+            text-decoration: underline;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .footer-lienhe{
+            width: 43%;
+            line-height: 1.5;
+            
+            strong{
+                color: white;
+                margin: 10px 0;
+            }
+            .lienhe-grey{
+                color: grey;
+            }
+            .lienhe-og{
+                color: #FF8C00;
+            }
+        }
+        .footer-vechungtoi{
+            width: 20%;
+        }
+        .footer-image{
+            width: 30%;
+
+            .fa-facebook-square, .fa-instagram, .fa-twitter-square{
+                color: white;
+                font-size: 50px;
+                margin-right: 2%;
+            }
+        }
+    }
+}
+.footer-info{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-line{
+    padding: 0 10%;
+    text-align: center;
+    font-weight: bold;
+}
+// 
+@media only screen and (min-width:769px) and (max-width:1023px) {
+    .footer-info{
+        padding: 0 1%;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .footer{
+        .footer-container{
+            padding: 1% 3%;
+        }
+    }
+    .footer-info{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    // --------
+    .footer{
+        .footer-container{
+            padding: 2% 0 2% 2%;
+            display: block;
+            .footer-lienhe, .footer-vechungtoi, .footer-image{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .footer-info{
+        display: none;
+    }
+}
