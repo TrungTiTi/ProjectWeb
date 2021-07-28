@@ -6,7 +6,7 @@ const Dienthoai = () => {
 
     const { phones, action } = usePhone();
     let lengthP =phones.data.length;
-
+    
     useEffect(() => {
         action.getPhone();
     }, []); 
@@ -22,7 +22,7 @@ const Dienthoai = () => {
             </div>
             <section className="content">
                 <div className="container">
-                    { lengthP && (
+                   
                         <div className="content-main">
                             <div className="main-title">
                                 <h1><Link to="">ROLEX</Link></h1>
@@ -32,21 +32,21 @@ const Dienthoai = () => {
                             </div>
                             <div className="main-box">
                                 {
-                                    phones.data.map((p, index) => ( 
+                                   lengthP && phones.data.map((p, index) => ( 
                                                     
                                         <div className="main-products" key= {index.toString()}>
                                             <div className="products-img">
-                                            <Link to=""><img src={p.image} /></Link>
+                                            <Link to={{ pathname:"/detail", url: p }}><img src={p.img[0].image} /></Link>
                                             </div>
                                             <h3><Link to="">{p.decription}</Link></h3>
-                                            <div className="products-lable">{p.lable}</div>
+                                            <div className="products-lable">{p.label}</div>
                                             <div className="products-price">{p.price}</div>
                                         </div>  
                                             ))     
                                 }
                             </div>
                         </div>
-                    )}
+                    
                 </div>
             </section>
         </div>

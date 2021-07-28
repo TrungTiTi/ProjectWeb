@@ -11,6 +11,7 @@ import Dienthoai from './pages/Dienthoai' ;
 import Detail from './pages/Detail';
 import WatchBrand from './pages/WatchBrand';
 import ScrollToTop from './commons/ScrollToTop';
+import GioHang from './pages/Giohang';
 
 
 function App() {
@@ -20,29 +21,45 @@ function App() {
  
     <Router>
       <ScrollToTop>
-      <Header />
-     <Switch> 
-        
-        <Route exact path ='/' component = {Trangchu}></Route>
-        <Route exact path ='/dongho' component = {Dongho}></Route>
-        <Route  path ='/dienthoai' component = {Dienthoai}></Route>
-        <Route 
+        <Header />
+        <Switch> 
+          
+            <Route exact path ='/' component = {Trangchu}></Route>
+            {/* <Route  path ='/dongho' component = {Dongho}></Route> */}
+            <Route exact
+              path= '/dongho'
+              render={ (props) => (<Dongho {...props} />)}
+            >
+            </Route>
+            <Route  path ='/dienthoai' render={(props) => (
+              <Dienthoai {...props} />
+              )}>
 
-         path ='/detail'
-         render={(props) => (
-          <Detail {...props} />
-          )}>
+            </Route>
+            <Route 
 
-         </Route>
-        <Route 
-          path= '/dongho/watch'
-          render={ (props) => (<WatchBrand {...props} />)}
-        >
-        </Route>
-        </Switch>
-        <Footer />
+            path ='/detail'
+            render={(props) => (
+              <Detail {...props} />
+              )}>
+
+            </Route>
+            <Route 
+              path= '/dongho/watch'
+              render={ (props) => (<WatchBrand {...props} />)}
+            >
+            </Route>
+
+            <Route 
+              path= '/giohang'
+              render={ (props) => (<GioHang {...props} />)}
+            >
+            </Route>
+
+          </Switch>
+          <Footer />
         </ScrollToTop>
-    </Router>
+      </Router>
     
   );
  
