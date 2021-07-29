@@ -268,8 +268,9 @@
         {
             "id" : "w1" ,
             "img" : [{ "image":"../image/hublot1.png"},{"image":"../image/hublot1-1.png"} ],
-            "price" : "500 Triệu",
+            "price" : 500,
             "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
+            "pay" :500,
             "label" : "VC-03",
             "brand" : "VACHERON-CONSTANTIN",
             "decription" : "Hublot"
@@ -277,8 +278,9 @@
         {
             "id" : "w2" ,
             "img" : [{ "image":"../image/hublot2.png"},{"image":"../image/hublot2-2.png"} ],
-            "price" : "500 Triệu",
+            "price" : 500,
             "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
+            "pay" :500,
             "label" : "VC-03",
             "brand" : "VACHERON-CONSTANTIN",
             "decription" : "Hublot"
@@ -286,8 +288,9 @@
         {
             "id" : "w2" ,
             "img" : [{ "image":"../image/hublot3.png"},{"image":"../image/hublot3-3.png"} ],
-            "price" : "500 Triệu",
+            "price" : 500,
             "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
+            "pay" :500,
             "label" : "VC-03",
             "brand" : "VACHERON-CONSTANTIN",
             "decription" : "Hublot"

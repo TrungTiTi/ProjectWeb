@@ -38,7 +38,7 @@ const Detail = (props) => {
         setCheckA('checked');
         setCheckB('');
         localStorage.setItem('imgDetailA', detailId.img[0].image);
-        // localStorage.removeItem('imgDetailA');
+       
     }
     
     const changeImg1 = () => {
@@ -54,7 +54,7 @@ const Detail = (props) => {
         setCheckB('checked');
         setCheckA('');
         localStorage.setItem('imgDetailA', detailId.img[1].image);
-        // localStorage.removeItem('imgDetailB');
+        
     }
 
     return(
