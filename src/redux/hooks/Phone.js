@@ -9,12 +9,12 @@ export const usePhone = () => {
     // 
 
     const dispatch = useDispatch();
-    const action = useMemo(
+    const actions = useMemo(
         () => bindActionCreators(PhoneActions, dispatch),
         [dispatch]
     );
 
     return useMemo(() => ({
-        phones, action
-    }), [phones, action])
+        phones, actions
+    }), [phones, actions])
 };

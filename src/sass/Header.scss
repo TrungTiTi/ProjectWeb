@@ -32,15 +32,15 @@
                 border: none;
                 border-radius: 10px;
             }
-            i{
+            .icon-search{
                 width: 6%;
                 margin: 1%;
                 padding:6px ;
                 font-size: 20px;
                 border-left: 1px solid grey;
             }
-            i:hover{
-                background-color: rgb(247, 245, 245);
+            .icon-search:hover{
+                background-color: grey;
             }
             
         }
@@ -49,13 +49,16 @@
             ul{
                 display: flex;
                 text-align: center;
+                align-items: center;
                 li{
                     list-style: none;
                 }
             }
             #icon-bar, #icon-carts{
+
                 display: none;
-                i{
+                .icon-cartIp{
+                    font-size: 30px;
                     color: white;
                 }
             }
@@ -68,14 +71,13 @@
         }
         // input-icon
         .header-icon{
-            
-            i{
+            padding: 10px 0;
+            box-sizing: border-box;
+            .icon-carts {
                 color: white;
-                padding: 10px;
                 font-size: 35px;
-               
             }
-            i:hover{
+            .icon-carts:hover{
                 cursor: pointer;
             }
         }
@@ -85,10 +87,6 @@
         display: inline-block;
         .header-menu{
             width: 100%;
-            
-            .fa-times{
-                display: none;
-            }
             
             ul{
                 display: flex;
@@ -178,6 +176,16 @@
         }
         form{
             display: none;
+            .icon-search{
+                width: 6%;
+                margin: 1%;
+                padding:6px ;
+                font-size: 20px;
+                border-left: 1px solid grey;
+            }
+            .icon-search:hover{
+                background-color: grey;
+            }
         }
     }
     .header-line{

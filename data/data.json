@@ -3,298 +3,572 @@
         {
             "id" : "sp1" ,
             "img" : [{ "image":"../image/hublot1.png"}, {"image":"../image/hublot1-1.png"}] ,
-            "price" : 500 ,
+            "price" : 435850000 ,
+            "pay" :435850000 ,
             "color" : {"a":"Vàng nâu", "b":"Xám"},
             "label" : "HL-01",
+            "q" : 1,
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng hồ Hublot Big Bang King Gold Diamonds 44mm ",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 44mm - Movement : Lên dây tự động, HUB 4100 - Chức năng: Giờ, phút, giây, ngày, chronograph - Chất liệu: Ceramic Xanh"
         },
         {
             "id" : "sp2" ,
             "img" : [{"image":"../image/hublot2.png"}, {"image":"../image/hublot2-2.png"}],
-            "price" : 400,
+            "price" : 263350000,
+            "pay" :263350000,
             "color" : {"a":"Xanh lục", "b":"Xanh dương"},
             "label" : "HL-02",
+            "q" : 1,
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng hồ Hublot Big Bang Unico Sorai 411.GX.5220.NR.SOA21",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 44mm - Movement : Automatic, Cal HUB1240 UNICO - Chức năng: Giờ, phút, giây, ngày, chronograph, Flyback - Chất liệu: Vàng hồng 18k, kim cương - Dự trữ cót: 72 giờ - Chống nước: 100m"
         },
         {
             "id" : "sp3" ,
             "img" : [{"image":"../image/hublot3.png"}, {"image":"../image/hublot3-3.png"}],
-            "price" : 500,
+            "price" : 500000000,
+            "pay" :500000000,
+            "q" : 1,
             "color" : {"a":"Trắng", "b":"Đen"},
             "label" : "HL-03",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Big Bang Tourbillon 43mm ",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 43mm - Movement : Automatic, Cal HUB6035 - Chức năng: Giờ, phút - Chất liệu: Sapphire Crystal - Dự trữ cót: 72 giờ - Chống nước: 30m"
         },
         {
             "id" : "sp4" ,
             "img" : [{"image":"../image/hublot4.png"}, {"image":"../image/hublot4-4.png"}],
-            "price" : 500,
+            "price" : 297850000,
+            "pay" :297850000,
+            "q":1,
             "color" : {"a":"Xanh", "b":"Xám"},
             "label" : "HL-04",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Big Bang Sang Bleu 45mm",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 45mm - Movement : Automatic, Cal HUB1240 - Chức năng: Giờ, phút, giây, ngày, chronograph, Flyback - Chất liệu: Ceramic - Dự trữ cót: 72 giờ - Chống nước: 100m"
         },
         {
             "id" : "sp5" ,
             "img" : [{"image":"../image/hublot7.png"}, {"image":"../image/hublot7-7.png"}],
-            "price" : 500,
+            "price" : 228850000,
+            "pay" : 228850000,
+            "q":1,
             "color" : {"a":"Vàng", "b":"Xanh"},
             "label" : "HL-07",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Big Bang Unico Black Magic 45mm ",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 45mm - Movement : HUB1242 - Chức năng: Giờ, phút, giây, ngày, chronograph, Flyback - Chất liệu: Ceramic "
         },
         {
             "id" : "sp6" ,
             "img" : [{"image":"../image/hublot8.png"}, { "image":"../image/hublot8-8.png"}],
-            "price" : 500,
+            "price" : 98000000,
+            "pay" :98000000,
+            "p":1,
             "color" : {"a":"Xám", "b":"Đen"},
             "label" : "HL-08",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Classic Fusion Shepard Fairey",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 45mm - Movement : Automatic, Cal HUB1155 - Chức năng: Giờ, phút, giây, ngày, chronograph - Chất liệu: Titanium - Dự trữ cót: 42 giờ - Chống nước: 50m"
         },
         {
             "id" : "sp7" ,
             "img" : [{"image":"../image/hublot10.png"}, {"image":"../image/hublot10-1.png"}],
-            "price" : 500,
+            "price" : 94350000,
+            "pay" : 94350000,
+            "p":1,
             "color" : {"a":"Trắng xanh", "b":"Vàng xanh"},
             "label" : "HL-10",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Classic Fusion Orlinski Blue",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 40mm - Movement : Automatic, Cal HUB1100 - Chức năng: Giờ, phút, giây - Chất liệu: Ceramic - Dự trữ cót: 42 giờ - Chống nước: 50m"
         },
         {
             "id" : "sp8" ,
             "img" : [{"image":"../image/hublot12.png"}, {"image":"../image/hublot12-1.png"}],
-            "price" : 500,
+            "price" : 1035000000,
+            "pay" :1035000000,
+            "p":1,
             "color" : {"a":"Đen trắng", "b":"trắng"},
             "label" : "HL-12",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Spirit Of Big Bang Tourbillon",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 42mm - Movement : Manual winding, Cal HUB6020 - Chức năng: Giờ, phút, hiển thị năng lượng, tourbillon - Chất liệu: Carbon Fiber - Dự trữ cót: 115 giờ - Chống nước: 30m"
         },
         {
             "id" : "sp9" ,
             "img" : [{"image":"../image/hublot16.png"}, { "image":"../image/hublot16-1.png"}],
-            "price" : 500,
+            "price" : 230057500,
+            "pay" :230057500,
+            "p":1,
             "color" : {"a":"Xanh xám", "b":"Vàng xanh"},
             "label" : "HL-16",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot Spirit Of Big Bang",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 42mm - Movement : Automatic, Cal HUB4700 - Chức năng: Giờ, phút, giây, ngày, chronograph - Chất liệu: Vàng hồng 18k và ceramic - Dự trữ cót: 50 giờ - Chống nước: 100m"
         },
         {
             "id" : "sp10" ,
             "img" : [{"image":"../image/hublot19.png"}, {"image":"../image/hublot19-1.png"}],
-            "price" : 500,
+            "price" : 2185000000,
+            "pay" :2185000000,
+            "p":1,
             "color" : {"a":"Xanh", "b":"Đỏ"},
             "label" : "HL-19",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot MP-09 TOURBILLON ",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 49mm - Movement : Manual winding, Cal HUB9009.H1.RA - Chức năng: Giờ, phút, ngày, dự trữ năng lượng, tourbillonk - Chất liệu: 3D Carbon Fiber và titanium - Dự trữ cót: 120 giờ - Chống nước: 30m"
         },
         {
             "id" : "sp11" ,
             "img" : [{"image":"../image/hublot21.png"}, {"image":"../image/hublot21-1.png"}],
-            "price" : 500,
+            "price" :  2185000000,
+            "pay" : 2185000000,
+            "p":1,
             "color" : {"a":"Vàng", "b":"Xanh"},
             "label" : "HL-21",
             "brand" : "HUBLOT",
-            "decription" : "Hublot "
+            "decription" : "Đồng Hồ Hublot MP-09 TOURBILLON ",
+            "decript" : "Xuất xứ: Hublot, Thụy Sĩ - Kích thước: 49mm - Movement : Manual winding, Cal HUB9009.H1.RA - Chức năng: Giờ, phút, ngày, dự trữ năng lượng, tourbillonk - Chất liệu: 3D Carbon Fiber và titanium - Dự trữ cót: 120 giờ - Chống nước: 30m"
         },
        
         {
             "id" : "sp14" ,
             "img" : [{"image":"../image/patek1.jpg"}, {"image":"../image/patek1-1.jpg"}],
-            "price" : 500,
+            "price" : 50000000,
+            "pay" :50000000,
+            "p":1,
             "color" : {"a":"Xanh biển", "b":"Vàng nâu"},
             "label" : "PP-01",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Complications 4948R-001",
+            "decript" : "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 38mm - Movement : Automatic - Chức năng: Giờ, phút, giây, ngày, tháng, lịch tuần trăng, lịch thường niên - Chất liệu: Vàng hồng 18k "
         },
         {
             "id" : "sp15" ,
             "img" : [{"image":"../image/patek2.jpg"}, {"image":"../image/patek2-2.jpg"}],
-            "price" : 500,
+            "price" : 45000000,
+            "pay" :45000000,
             "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
             "label" : "PP-02",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Complications ",
+            "p":1,
+            "decript": "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 38mm - Movement : Automatic - Chức năng: Giờ, phút, giây, ngày, tháng, lịch tuần trăng, lịch thường niên - Chất liệu: Vàng hồng 18k "
         },
         {
             "id" : "sp16" ,
             "img" : [{"image":"../image/patek3.jpg"}, {"image":"../image/patek3-3.jpg"}],
-            "price" : 500,
+            "price" : 35650000,
+            "pay" :35650000,
             "color" : {"a":"Nâu xám", "b":"Vàng nâu"},
             "label" : "PP-03",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Complications 40mm",
+            "p":1,
+            "decript": "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 40mm - Movement : Automatic - Chức năng: Giờ, phút, giây, ngày, tháng, lịch tuần trăng, lịch thường niên - Chất liệu: Vàng hồng 18k "
         },
         {
             "id" : "sp17" ,
             "img" : [{"image":"../image/patek4.jpg"}, { "image":"../image/patek4-4.jpg"}],
-            "price" : 500,
+            "price" : 107700000,
+            "pay" :107700000,
             "color" : {"a":"Vàng đen", "b":"Xanh trắng"},
             "label" : "PP-04",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Grand Complications 6102R-001",
+            "p":1,
+            "decript": "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 38mm - Movement : Automatic, Caliber 324 S C - Chức năng: Giờ, phút, giây, ngày - Chất liệu: Platinum, dây da cá sấu, kim cương nguyên bản - Chống nước: 30m"
         },
         {
             "id" : "sp18" ,
             "img" : [{"image":"../image/patek5.jpg"}, { "image":"../image/patek5-5.jpg"}],
-            "price" : 500,
+            "price" : 1035000000,
+            "pay" :1035000000,
             "color" : {"a":"Hồng xám", "b":"Hồng vàng"},
             "label" : "PP-05",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Calatrava",
+            "p":1,
+            "decript": "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 37.5mm - Movement : Automatic - Chức năng: Giờ, phút, giây, ngày - Chất liệu: Thép không gỉ"
         },
         {
             "id" : "sp19" ,
             "img" : [{"image":"../image/patek6.jpg"}, { "image":"../image/patek6-6.jpg"}],
-            "price" : 500,
+            "price" : 705000000,
+            "pay" :705000000,
             "color" : {"a":"Hồng vàng", "b":"Trắng vàng"},
             "label" : "PP-06",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Complicated Annual Calendar 4936R",
+            "p":1,
+            "decript": "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 37mm - Movement : Automatic, calibre 324 S QA LU - Chức năng: Giờ, phút, giây, lịch vạn niên, moonphase - Chất liệu: Vàng hồng 18k - Chống nước: 30m"
         },
         {
             "id" : "sp20" ,
             "img" : [{"image":"../image/patek7.jpg"}, { "image":"../image/patek7-7.jpg"}],
-            "price" : 500,
+            "price" : 1035000000,
+            "pay" :1035000000,
             "color" : {"a":"Hồng vàng", "b":"Hồng xám"},
             "label" : "PP-07",
             "brand" : "PATEK-PHILIPE",
-            "decription" : "PATEK PHILIPE "
+            "decription" : "Đồng Hồ Patek Philippe Calatrava ",
+            "p":1,
+            "decript": "Xuất xứ: Patek Philippe, Thụy Sĩ - Kích thước: 37.5mm - Movement : Automatic - Chức năng: Giờ, phút, giây, ngày - Chất liệu: Thép không gỉ"
         },
         {
             "id" : "sp24" ,
             "img" : [{"image":"../image/tag1.png"}, { "image":"../image/tag1-1.png"}],
-            "price" : 500,
+            "price" : 66700000,
+            "pay" :66700000,
             "color" : {"a":"Đen vàng", "b":"Đen xám"},
             "label" : "Tag-01",
             "brand" : "TAG-HEUER",
-            "decription" : "TAG HEUER"
+            "decription" : "Đồng Hồ TAG HEUER CONNECTED",
+            "p":1,
+            "decript": "Xuất xứ: TAG Heuer, Thụy Sĩ - Kích thước: 45mm - Movement : Automatic, Calibre 01 trữ cót 50 giờ - Chức năng: Giờ, phút, giây, ngày, chronograph - Chất liệu: Thép không gỉ"
         },
         {
             "id" : "sp25" ,
             "img" : [{"image":"../image/tag2.png"}, {"image":"../image/tag2-2.png"}],
-            "price" : 500,
+            "price" : 43700000,
+            "pay" :43700000,
             "color" : {"a":"Đen", "b":"Đen Dương"},
             "label" : "Tag-02",
             "brand" : "TAG-HEUER",
-            "decription" : "TAG HEUER"
+            "decription" : "Đồng Hồ TAG HEUER CONNECTED",
+            "p":1,
+            "decript": "Xuất xứ: TAG Heuer, Thụy Sĩ - Kích thước: 45mm - Chống nước: 50m - Chức năng: Giờ, phút, giây, ngày, nhiệt độ, chronograph - Chất liệu: Thép không gỉ, tinh thể sapphire chống xước, gờ bằng gốm đen siêu nhẹ"
         },
         {
             "id" : "sp26" ,
             "img" : [{"image":"../image/tag3.png"}, {"image":"../image/tag3-3.png"}],
-            "price" : 500,
+            "price" : 96600000,
+            "pay" :96600000,
             "color" : {"a":"Nâu", "b":"Trắng"},
             "label" : "Tag-03",
             "brand" : "TAG-HEUER",
-            "decription" : "TAG HEUER"
+            "decription" : "Đồng Hồ TAG HEUER AQUARACER PROFESSIONAL 300",
+            "p":1,
+            "decript": "Xuất xứ: TAG Heuer, Thụy Sĩ - Kích thước: 43mm - Chức năng: Giờ, phút, giây, ngày - Chất liệu: Thép không gỉ, tinh thể sapphire chống xước - Chống nước: 300m"
         },
         {
             "id" : "sp27" ,
             "img" : [{"image":"../image/tag4.png"}, {"image":"../image/tag4-4.png"}],
-            "price" : 500,
+            "price" : 96600000,
+            "pay" :96600000,
             "color" : {"a":"Xanh lục", "b":"Xanh lam"},
             "label" : "Tag-04",
             "brand" : "TAG-HEUER",
-            "decription" : "TAG HEUER"
+            "decription" : "Đồng Hồ TAG HEUER AQUARACER PROFESSIONAL 300",
+            "p":1,
+            "decript": "Xuất xứ: TAG Heuer, Thụy Sĩ - Kích thước: 43mm - Chức năng: Giờ, phút, giây, ngày - Chất liệu: Thép không gỉ, tinh thể sapphire chống xước - Chống nước: 300m"
         },
         {
             "id" : "sp28" ,
             "img" : [{"image":"../image/tag5.png"}, {"image":"../image/tag5-5.png"}],
-            "price" : 500,
+            "price" : 105000000,
+            "pay" :105000000,
             "color" : {"a":"Xanh lam", "b":"Đỏ"},
             "label" : "Tag-05",
             "brand" : "TAG-HEUER",
-            "decription" : "TAG HEUER"
+            "decription" : "Đồng Hồ TAG HEUER CARRERA PORSCHE",
+            "p":1,
+            "decript": "Xuất xứ: TAG Heuer, Thụy Sĩ - Kích thước: 44mm - Movement : Automatic - Chức năng:  Giờ, phút, giây, chronograph - Chất liệu: Thép không gỉ, tinh thể sapphire chống xước - Chống nước: 30m"
         },
         {
             "id" : "sp29" ,
             "img" : [{"image":"../image/tag6.png"}, {"image":"../image/tag6-6.png"}],
-            "price" : 500,
+            "price" : 225000000,
+            "pay" : 225000000,
             "color" : {"a":"Nâu", "b":"Đen"},
             "label" : "Tag-06",
             "brand" : "TAG-HEUER",
-            "decription" : "TAG HEUER"
+            "decription" : "Đồng Hồ TAG HEUER CARRERA ",
+            "p":1,
+            "decript": "Xuất xứ: TAG Heuer, Thụy Sĩ - Kích thước: 44mm - Movement : Automatic - Chức năng:  Giờ, phút, giây, chronograph - Chất liệu: Thép không gỉ, tinh thể sapphire chống xước - Chống nước: 50m"
         },
         {
             "id" : "sp12" ,
             "img" : [{"image":"../image/audemars2.jpg"}, {"image":"../image/audemars2-2.jpg"}],
-            "price" : 500,
+            "price" : 604900000,
+            "pay" :604900000,
             "color" : {"a":"Cam", "b":"Xanh"},
             "label" : "AP-02",
             "brand" : "AUDEMARS-PIGUET",
-            "decription" : "AUDEMARS PIGUET "
+            "decription" : "Đồng Hồ Audemars Piguet Royal Oak Offshore Chronograph ",
+            "p":1,
+            "decript": "Xuất xứ: Audermars Piguet, Thụy Sĩ - Kích thước: 42mm - Movement : Automatic - Chức năng:  Giờ, phút, giây, ngày, chronograph - Chất liệu: Thép không gỉ"
         },
         {
             "id" : "sp13" ,
             "img" : [{"image":"../image/audemars3.jpg"}, {"image":"../image/audemars3-3.jpg"}],
-            "price" : 50,
+            "price" : 604900000,
+            "pay" :604900000,
             "color" : {"a":"Vàng", "b":"Xanh lục"},
             "label" : "AP-03",
             "brand" : "AUDEMARS-PIGUET",
-            "decription" : "AUDEMARS PIGUET "
+            "decription" : "Đồng Hồ Audemars Piguet Royal Oak Offshore Chronograph ",
+            "p":1,
+            "decript": "Xuất xứ: Audermars Piguet, Thụy Sĩ - Kích thước: 42mm - Movement : Automatic - Chức năng:  Giờ, phút, giây, ngày, chronograph - Chất liệu: Thép không gỉ"
         },
         {
             "id" : "sp21" ,
             "img" : [{"image":"../image/vacheron1.jpg"}, {"image":"../image/vacheron1-1.jpg"}],
-            "price" : 500,
+            "price" : 566000000,
+            "pay" :566000000,
             "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
             "label" : "VC-01",
             "brand" : "VACHERON-CONSTANTIN",
-            "decription" : "VACHERON CONSTANTIN "
+            "decription" : "Đồng Hồ Vacheron Constantin Overseas",
+            "p":1,
+            "decript": "Xuất xứ: Vacheron Constantin, Thụy Sĩ - Kích thước: 42mm - Movement : Automatic, caliber VC 1137 - Chức năng:  Giờ, phút, giây, ngày, chronograph - Chất liệu: Vàng hồng 18k - Dự trữ: 40h - Chống nước: 150m"
         },
         {
             "id" : "sp22" ,
             "img" : [{"image":"../image/vacheron2.jpg"}, {"image":"../image/vacheron2-2.jpg"}],
-            "price" : 500,
+            "price" : 58000000,
+            "pay" :58000000,
             "color" : {"a":"Vàng nâu", "b":"Vàng hồng"},
             "label" : "VC-02",
             "brand" : "VACHERON-CONSTANTIN",
-            "decription" : "VACHERON CONSTANTIN "
+            "decription" : "Đồng Hồ Vacheron Constantin Harmony ",
+            "p":1,
+            "decript": "Xuất xứ: Vacheron Constantin, Thụy Sĩ - Kích thước: 40 x 49mm - Movement : Automatic, Cal 2460 DT - Chức năng:  Giờ, phút, giây, hiển thị ngày, đêm- Chất liệu: Vàng hồng 18k - Dự trữ: 40h - Chống nước: 30m"
         },
         {
             "id" : "sp23" ,
             "img" : [{"image":"../image/vacheron3.jpg"}, {"image":"../image/vacheron3-3.jpg"}],
             "price" : 500,
+            "pay" :0,
             "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
             "label" : "VC-03",
             "brand" : "VACHERON-CONSTANTIN",
-            "decription" : "VACHERON CONSTANTIN "
+            "decription" : "Đồng Hồ Vacheron Constantin Patrimony ",
+            "p":1,
+            "decript": "Xuất xứ: Vacheron Constantin, Thụy Sĩ - Kích thước: 36mm - Movement : Automatic, Cal 2450 Q6 - Chức năng:  Giờ, phút, giây - Chất liệu: Vàng trắng 18k - Chống nước: 30m"
         }
 
     ],
-    "watch":[
+    "watchs":[
         {
-            "id" : "w1" ,
-            "img" : [{ "image":"../image/hublot1.png"},{"image":"../image/hublot1-1.png"} ],
-            "price" : 500,
-            "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
-            "pay" :500,
-            "label" : "VC-03",
-            "brand" : "VACHERON-CONSTANTIN",
-            "decription" : "Hublot"
+            "id" : "p1" ,
+            "img" : [{ "image":"../image/ip1.png"},{"image":"../image/ip1-1.png"} ],
+            "price" : 36690000,
+            "color" : {"a":"Xám", "b":"Trắng"},
+            "pay" :36690000,
+            "q" :1,
+            "label" : "IP-01",
+            "brand" : "IPHONE",
+            "decription" : "Apple iPhone 12 Pro Max - 512GB - Chính hãng VN/A",
+            "decript": "Công nghệ màn hình:OLED - Độ phân giải: 1284 x 2778 Pixels, 3 camera 12 MP, 12 MP - Màn hình rộng: 6.7inc - Hệ điều hành: iOS 14 - Chip xử lý (CPU): Apple A14 Bionic 6 nhân - Bộ nhớ trong (ROM): 512 GB - RAM: 6 GB - Mạng di động: Hỗ trợ 5G - Số khe sim: 1 Nano SIM & 1 eSIM - Trọng lượng: 228 g - Dung lượng pin: 3687 mAh"
         },
         {
-            "id" : "w2" ,
-            "img" : [{ "image":"../image/hublot2.png"},{"image":"../image/hublot2-2.png"} ],
-            "price" : 500,
-            "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
-            "pay" :500,
-            "label" : "VC-03",
-            "brand" : "VACHERON-CONSTANTIN",
-            "decription" : "Hublot"
+            "id" : "p2" ,
+            "img" : [{ "image":"../image/ip2.png"},{"image":"../image/ip2-1.png"} ],
+            "price" : 28460000,
+            "color" : {"a":"Vàng", "b":"Xanh dương"},
+            "pay" :28460000,
+            "q" :1,
+            "label" : "IP-02",
+            "brand" : "IPHONE",
+            "decription" : "Apple iPhone 12 Pro Max - 128GB - Chính hãng VN/A",
+            "decript": "Công nghệ màn hình:OLED - Độ phân giải: 1284 x 2778 Pixels, 3 camera 12 MP, 12 MP - Màn hình rộng: 6.7inc - Hệ điều hành: iOS 14 - Chip xử lý (CPU): Apple A14 Bionic 6 nhân - Bộ nhớ trong (ROM): 128 GB - RAM: 6 GB - Mạng di động: Hỗ trợ 5G - Số khe sim: 1 Nano SIM & 1 eSIM - Trọng lượng: 228 g - Dung lượng pin: 3687 mAh"
         },
         {
-            "id" : "w2" ,
-            "img" : [{ "image":"../image/hublot3.png"},{"image":"../image/hublot3-3.png"} ],
-            "price" : 500,
-            "color" : {"a":"Vàng nâu", "b":"Xanh dương"},
-            "pay" :500,
-            "label" : "VC-03",
-            "brand" : "VACHERON-CONSTANTIN",
-            "decription" : "Hublot"
+            "id" : "p3" ,
+            "img" : [{ "image":"../image/ip3.png"},{"image":"../image/ip3-1.png"} ],
+            "price" : 15550000,
+            "color" : {"a":"Đỏ", "b":"Đen"},
+            "pay" :15550000,
+            "q" :1,
+            "label" : "IP-03",
+            "brand" : "IPHONE",
+            "decription" : "Apple iPhone 12 Mini - 64GB - Chính hãng VN/A",
+            "decript": "Công nghệ màn hình:OLED - Độ phân giải: Full HD+ (1080 x 2340 Pixels), 2 camera 12 MP, 12 MP - Màn hình rộng: 5.4inc - Hệ điều hành: iOS 14 - Chip xử lý (CPU): Apple A14 Bionic 6 nhân - Bộ nhớ trong (ROM): 64 GB - RAM: 4 GB - Mạng di động: Hỗ trợ 5G - Số khe sim: 1 Nano SIM & 1 eSIM - Trọng lượng: 135 g - Dung lượng pin: 2227 mAh"
+        },
+        {
+            "id" : "p4" ,
+            "img" : [{ "image":"../image/ip4.png"},{"image":"../image/ip4-1.png"} ],
+            "price" : 17790000,
+            "color" : {"a":"Vàng", "b":"Tím"},
+            "pay" :17790000,
+            "q" :1,
+            "label" : "IP-04",
+            "brand" : "IPHONE",
+            "decription" : "iPhone 11 - 256GB - Chính hãng VN/A",
+            "decript": "Công nghệ màn hình: IPS LCD- Độ phân giải: 828 x 1792 Pixels, Chính 12 MP & Phụ 12 MP, 12 MP - Màn hình rộng: 6.1inc - Bộ nhớ trong (ROM): 256 GB - RAM: 4 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 1 Nano SIM & 1 eSIM - Trọng lượng: 194 g - Dung lượng pin: 3110 mAh"
+        },
+        {
+            "id" : "p5" ,
+            "img" : [{ "image":"../image/ip5.png"},{"image":"../image/ip5-1.png"} ],
+            "price" : 12990000,
+            "color" : {"a":"Đen", "b":"Trắng"},
+            "pay" :12990000,
+            "q" :1,
+            "label" : "IP-05",
+            "brand" : "IPHONE",
+            "decription" : "iPhone XR - 128GB - Chính hãng VN/A",
+            "decript": "Công nghệ màn hình: IPS LCD- Độ phân giải: 828 x 1792 Pixels, 12MP, 7MP - Màn hình rộng: 6.1inc - Bộ nhớ trong (ROM): 128 GB - RAM: 3 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 1 Nano SIM & 1 eSIM - Trọng lượng: 194 g - Dung lượng pin: 2942 mAh"
+        },
+        {
+            "id" : "p6" ,
+            "img" : [{ "image":"../image/ss2.png"},{"image":"../image/ss2-1.png"} ],
+            "price" : 19950000,
+            "color" : {"a":"Xanh", "b":"Đen"},
+            "pay" :19950000,
+            "q" :1,
+            "label" : "SS-01",
+            "brand" : "SAMSUNG",
+            "decription" : "Điện thoại di động Samsung Galaxy S21 Plus 128GB 5G",
+            "decript": "Công nghệ màn hình: Dynamic AMOLED 2X - Độ phân giải: Full HD+ (1080 x 2400 Pixels), Chính 12 MP & Phụ 64 MP, 12 MP, 10 MP - Màn hình rộng: 6.7 inc - Bộ nhớ trong (ROM): 128 GB - RAM: 8 GB - Mạng di động: Hỗ trợ 5G - Số khe sim: 2 Nano SIM hoặc 1 Nano SIM & 1 eSIM - Trọng lượng: 170 g - Dung lượng pin: 4800 mAh"
+        },
+        {
+            "id" : "p7" ,
+            "img" : [{ "image":"../image/ss2.png"},{"image":"../image/ss2-1.png"} ],
+            "price" : 3380000,
+            "color" : {"a":"Xanh", "b":"Đen"},
+            "pay" :3380000,
+            "q" :1,
+            "label" : "SS-02",
+            "brand" : "SAMSUNG",
+            "decription" : "Điện thoại di động Samsung Galaxy A12",
+            "decript": "Công nghệ màn hình: PLS TFT LCD - Độ phân giải: HD+ (720 x 1600 Pixels), Chính 48 MP & Phụ 5 MP, 2 MP, 2 MP, 8 MP - Hệ điều hành: Android 10 - Bộ nhớ trong (ROM): 128 GB - RAM: 4 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p8" ,
+            "img" : [{ "image":"../image/ss3.png"},{"image":"../image/ss3-1.png"} ],
+            "price" : 18490000,
+            "color" : {"a":"Trắng", "b":"Đen"},
+            "pay" :18490000,
+            "q" :1,
+            "label" : "SS-03",
+            "brand" : "SAMSUNG",
+            "decription" : "Điện thoại di động Samsung Galaxy Note 20 Ultra",
+            "decript": "Công nghệ màn hình: Dynamic AMOLED 2X - Độ phân giải: 2K+ (1440 x 3088 Pixels), Chính 108 MP & Phụ 12 MP, 12 MP, cảm biến Laser AF, 10 MP - Hệ điều hành: Android 10 - Bộ nhớ trong (ROM): 256 GB - RAM: 8 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM hoặc 1 Nano SIM - Dung lượng pin: 4500 mAh"
+        },
+        {
+            "id" : "p9" ,
+            "img" : [{ "image":"../image/xiaomi1.png"},{"image":"../image/xiaomi1-1.png"} ],
+            "price" : 18490000,
+            "color" : {"a":"Trắng", "b":"Xanh"},
+            "pay" :18490000,
+            "q" :1,
+            "label" : "X-01",
+            "brand" : "XIAOMI",
+            "decription" : "Điện thoại di động Xiaomi Redmi Note 10 6GB/128GB",
+            "decript": "Công nghệ màn hình: AMOLED - Độ phân giải: Full HD+ (1080 x 2400 Pixels), Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP, 13 MP - Màn hình rộng: 6.43 inc - Hệ điều hành: Android 11 - Bộ nhớ trong (ROM): 128 GB - RAM: 6 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p10" ,
+            "img" : [{ "image":"../image/xiaomi2.png"},{"image":"../image/xiaomi2-1.png"} ],
+            "price" : 10950000,
+            "color" : {"a":"Xanh", "b":"Xám"},
+            "pay" :10950000,
+            "q" :1,
+            "label" : "X-02",
+            "brand" : "XIAOMI",
+            "decription" : "Điện thoại di động Xiaomi Mi 10T Pro 5G - 8GB/256GB ",
+            "decript": "Công nghệ màn hình: IPS LCD - Độ phân giải: Full HD+ (1080 x 2400 Pixels), Chính 108 MP & Phụ 13 MP, 5 MP, 20 MP - Màn hình rộng: 6.67 inc - Hệ điều hành: Android 10 - Bộ nhớ trong (ROM): 256 GB - RAM: 8 GB - Mạng di động: Hỗ trợ 5G - Số khe sim: 2 Nano SIM - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p11" ,
+            "img" : [{ "image":"../image/xiaomi3.png"},{"image":"../image/xiaomi3-1.png"} ],
+            "price" : 5650000,
+            "color" : {"a":"Xám", "b":"Trắng"},
+            "pay" :5650000,
+            "q" :1,
+            "label" : "X-03",
+            "brand" : "XIAOMI",
+            "decription" : "Điện thoại di động Xiaomi Redmi Note 10S",
+            "decript": "Công nghệ màn hình: AMOLED- Độ phân giải: Full HD+ (1080 x 2400 Pixels), Chính 108 MP & Phụ 8 MP, 2 MP, 2 MP, 13 MP - Hệ điều hành: Android 11 - Bộ nhớ trong (ROM): 128 GB - RAM: 8 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p12" ,
+            "img" : [{ "image":"../image/oppo1.png"},{"image":"../image/oppo1-1.png"} ],
+            "price" : 5950000,
+            "color" : {"a":"Đen", "b":"Xanh"},
+            "pay" :5950000,
+            "q" :1,
+            "label" : "OP-01",
+            "brand" : "OPPO",
+            "decription" : "Điện thoại di động Oppo A74 8G/128G",
+            "decript": "Công nghệ màn hình: AMOLED - Độ phân giải:  Full HD+ (1080 x 2400 Pixels), Chính 48 MP & Phụ 2 MP, 2 MP, 16 MP - Hệ điều hành: Android 11 - Bộ nhớ trong (ROM): 128 GB - RAM: 8 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p13" ,
+            "img" : [{ "image":"../image/oppo2.png"},{"image":"../image/oppo2-1.png"} ],
+            "price" : 3950000,
+            "color" : {"a":"Đen", "b":"Xanh"},
+            "pay" :3950000,
+            "q" :1,
+            "label" : "OP-02",
+            "brand" : "OPPO",
+            "decription" : "Điện thoại di động Oppo A53 - 4GB/128GB",
+            "decript": "Công nghệ màn hình: IPS LCD - Độ phân giải: HD+ (720 x 1600 Pixels), Chính 13 MP & Phụ 2 MP, 2 MP, 16 MP - Bộ nhớ trong (ROM): 128 GB - RAM: 4 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM - Trọng lượng: 186 g - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p14" ,
+            "img" : [{ "image":"../image/re1.png"},{"image":"../image/re1-1.png"} ],
+            "price" : 7490000,
+            "color" : {"a":"Xanh", "b":"Đen"},
+            "pay" :7490000,
+            "q" :1,
+            "label" : "RE-01",
+            "brand" : "REALME",
+            "decription" : "Điện thoại di động Realme 8 Pro - Chính hãng",
+            "decript": "Công nghệ màn hình: Super AMOLED - Độ phân giải: Full HD+ (1080 x 2400 Pixels), Chính 108 MP & Phụ 8 MP, 2 MP, 2 MP, 16 MP - Bộ nhớ trong (ROM): 128 GB - RAM: 8 GB - Mạng di động: Hỗ trợ 4G - Số khe sim: 2 Nano SIM - Dung lượng pin: 4500 mAh"
+        },
+        {
+            "id" : "p15" ,
+            "img" : [{ "image":"../image/vivo1.png"},{"image":"../image/vivo1-1.png"} ],
+            "price" : 6290000,
+            "color" : {"a":"Xanh tím", "b":"Xanh biển"},
+            "pay" :6290000,
+            "q" :1,
+            "label" : "VV-01",
+            "brand" : "VIVO",
+            "decription" : "Điện thoại di động Vivo Y53s",
+            "decript": "Công nghệ màn hình: IPS LCD - Độ phân giải: Full HD+ (1080 x 2400 Pixels), Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP, 16 MP - Bộ nhớ trong (ROM): 128 GB - RAM: 8 GB, công nghệ mở rộng Ram 3G - Hệ điều hành: Android 11"
+        },
+        {
+            "id" : "p16" ,
+            "img" : [{ "image":"../image/vivo2.png"},{"image":"../image/vivo2-1.png"} ],
+            "price" : 2850000,
+            "color" : {"a":"Đen", "b":"Xanh"},
+            "pay" :2850000,
+            "q" :1,
+            "label" : "VV-02",
+            "brand" : "VIVO",
+            "decription" : "Điện thoại di động Vivo Y12s 2021 3GB/32GB ",
+            "decript": "Công nghệ màn hình: IPS LCD - Độ phân giải: Full HD+ (720 x 1600 Pixels), Chính 13 MP & Phụ 8 MP, 2 MP, 8 MP - Bộ nhớ trong (ROM): 32 GB - RAM: 3 GB - Hệ điều hành: Android 11 - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p17" ,
+            "img" : [{ "image":"../image/vs1.png"},{"image":"../image/vs1-1.png"} ],
+            "price" : 1890000,
+            "color" : {"a":"Xanh", "b":"Trắng"},
+            "pay" :1890000,
+            "q" :1,
+            "label" : "VS-01",
+            "brand" : "VSMART",
+            "decription" : "Điện thoại di động Vsmart Star 5 - 3GB/32GB ",
+            "decript": "Công nghệ màn hình: IPS LCD - Độ phân giải: Full HD+ (720 x 1600 Pixels), Chính 13 MP & Phụ 2 MP, 2 MP, 8 MP - Bộ nhớ trong (ROM): 32 GB - RAM: 3 GB - Hệ điều hành: Android 11 - Dung lượng pin: 5000 mAh"
+        },
+        {
+            "id" : "p18" ,
+            "img" : [{ "image":"../image/vs2.png"},{"image":"../image/vs2-1.png"} ],
+            "price" : 2190000,
+            "color" : {"a":"Xanh", "b":"Đen"},
+            "pay" :2190000,
+            "q" :1,
+            "label" : "VS-02",
+            "brand" : "VSMART",
+            "decription" : "Điện thoại di động Vsmart Star 5 - 4GB/64GB ",
+            "decript": "Công nghệ màn hình: IPS LCD - Độ phân giải: Full HD+ (720 x 1600 Pixels), Chính 13 MP & Phụ 2 MP, 2 MP, 8 MP - Bộ nhớ trong (ROM): 64 GB - RAM: 4 GB - Hệ điều hành: Android 11 - Dung lượng pin: 5000 mAh"
         }
+        
     ]
     
 }

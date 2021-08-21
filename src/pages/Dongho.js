@@ -1,8 +1,10 @@
-import React, {useMemo, useEffect, useState, useCallback} from "react";
-import {BrowserRouter as Router, Link, useLocation} from "react-router-dom";
-import { useProduct } from "../redux/hooks/Product";
+import React, { useEffect, useState, useCallback} from "react";
+import { Link} from "react-router-dom";
 import productApi from '../data/Product';
-const Dongho = (props) => {
+import SignIn from '../components/SignIn';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+const Dongho = () => {
     
     const [infoPage, setInfo] = useState(); //lay du lieu
    
@@ -41,12 +43,13 @@ const Dongho = (props) => {
     
     // luu data
    
- 
+    if(localStorage.getItem('users')){
     return(
         <div>
+            <Header></Header>
             <div className="head-line">
                 <div className="container">
-                    <Link to="">Trangchu</Link>
+                    <Link to="/">Trangchu</Link>
                     &nbsp; / &nbsp;
                     <Link to="/dongho">Dongho</Link>
                 </div>
@@ -56,11 +59,9 @@ const Dongho = (props) => {
                     
                         <div className="content-main">
                             <div className="main-title">
-                                <h1><Link to="/dongho">ROLEX</Link></h1>
+                                <h1><Link to="/dongho">ĐỒNG HỒ</Link></h1>
                             </div>
-                            <div className="main-box">
 
-                            </div>
                             <div className="main-box">
                                 {
                                     infoPage && infoPage.map((p, index) => ( 
@@ -71,7 +72,7 @@ const Dongho = (props) => {
                                             </div>
                                             <h3><Link to={{ pathname:"/detail", url: p }}>{p.decription}</Link></h3>
                                             <div className="products-lable">{p.label}</div>
-                                            <div className="products-price">{p.price}</div>
+                                            <div className="products-price">{p.price.toLocaleString()} VNĐ</div>
                                         </div>  
                                             ))     
                                 }
@@ -80,12 +81,19 @@ const Dongho = (props) => {
                     
                 </div>
             </section>
-            <div>
-                <input type="submit" name="prev" value="prev" onClick={prevPage} />
-                <input type="submit" name="next" value="next" onClick={nextPage} />
+            <div className="button-page">
+                <input type="submit"  name="prev" value="prev" onClick={prevPage} />
+                <input type="submit"  name="next" value="next" onClick={nextPage} />
             </div>
+            <Footer></Footer>
         </div>
-    )
+    );}else{
+        return(
+            <>
+                <SignIn></SignIn>
+            </>
+        )
+    }
 }
 
 export default Dongho;

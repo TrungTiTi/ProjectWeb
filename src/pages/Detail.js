@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
-import {BrowserRouter as Router, Link} from "react-router-dom";
-
+import { Link} from "react-router-dom";
+import SignIn from '../components/SignIn';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 const Detail = (props) => {
 
     
@@ -22,6 +24,7 @@ const Detail = (props) => {
     // thay đổi border ảnh
     const border1 = useRef();
     const border2 = useRef();
+    const  hide = useRef();
     const [checkA,setCheckA] = useState("");
     const [checkB, setCheckB] = useState('checked');
     // hành động click thay đổi ảnh
@@ -38,7 +41,6 @@ const Detail = (props) => {
         setCheckA('checked');
         setCheckB('');
         localStorage.setItem('imgDetailA', detailId.img[0].image);
-       
     }
     
     const changeImg1 = () => {
@@ -54,23 +56,30 @@ const Detail = (props) => {
         setCheckB('checked');
         setCheckA('');
         localStorage.setItem('imgDetailA', detailId.img[1].image);
-        
     }
 
+    const showhide = () => {
+        if(hide.current.style.display == 'none'){
+            hide.current.style.display = 'block'
+        }else{
+            hide.current.style.display = 'none'
+        }
+    }
+    
+    if(localStorage.getItem('users')){
     return(
         <div>
+            <Header></Header>
             <div className="head-line">
                 <div className="container">
                     <Link to="">Trangchu</Link>
-                    &nbsp; / &nbsp;
-                    <Link to="">Dongho</Link>
                 </div>
             </div>
             <section className="content">
                 <div className="container">
                     <div className="content-main">
                         <div className="main-title">
-                            <h1><Link to="">ROLEX</Link></h1>
+                            <h1>SẢN PHẨM</h1>
                         </div>
                         <div className="product-detail">
                             <div className="left-detail">
@@ -90,7 +99,7 @@ const Detail = (props) => {
                                     <h1>Thông tin sản phẩm</h1>
                                     <strong>Tình trạng: Mới</strong>
                                 </div>
-                                <p>{detailId.decription}</p>
+                                <p>{detailId.decript}</p>
                                 <div className="detail-right-main">
                                     <strong>Lựa chọn màu sản phẩm</strong>
                                     <div className="detail-option">
@@ -106,20 +115,38 @@ const Detail = (props) => {
                                         </form>
                                     </div>
                                     <div className="detail-price">
-                                        <h3>Giá:{detailId.price} triệu đồng</h3>
+                                        <h3>Giá: {detailId.price.toLocaleString()} Triệu VNĐ</h3>
                                     </div>
                                     <button>
-                                        <Link to={{pathname : "/giohang", url : detailId, img: imagec}}>Mua ngay</Link>
+                                        <Link to={{pathname : "/giohang", url : detailId, img: imagec}} >Mua ngay</Link>
                                     </button>
                                 </div>
                             </div>
+                        </div>
+                        <div className="product-title" onClick={showhide}>
+                            <h3>Thông tin chung</h3>
+                        </div>
+                        <div className="product-img" ref={hide}>
+                            <h3>Thông số kỹ thuật</h3>
+                            <p>{detailId.decript}</p>
+                            <div>
+                                <img src={detailId.img[1].image}></img>
+                            </div>
+                           
                         </div>
                     </div>
  
                 </div>
             </section>
+            <Footer></Footer>
         </div>
-    )
+    );}else{
+        return(
+            <>
+                <SignIn></SignIn>
+            </>
+        )
+    }
 }
 
 export default Detail;

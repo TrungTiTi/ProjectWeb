@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_API = 'http://localhost:8006/posts';
+const URL_API = 'https://60e12a096b689e001788cc72.mockapi.io/posts';
 
 const  getProduct = () => {
 
@@ -10,7 +10,7 @@ const  getProduct = () => {
 
 const  getProductWatch = (number) => {
 
-    return axios.get(`${URL_API}/?_page=${number}&_limit=6`).then( res => res.data)
+    return axios.get(`${URL_API}/?page=${number}&limit=6`).then( res => res.data)
     
 }
 export default {

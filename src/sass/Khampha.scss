@@ -1,0 +1,29 @@
+.kienthuc1 
+{
+    div{
+        text-align: center;
+        margin: 10px 0;
+        img{
+            width: 80%;
+        }
+        audio{
+            width: 90%;
+        }
+    }
+    h4{
+        margin-left: 2%; 
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(245, 64, 9);
+        }
+    }
+    p{
+        font-size: 16px;
+    }
+
+}
+

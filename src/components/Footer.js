@@ -31,9 +31,9 @@ const Footer = () => {
                 </div>
             </footer>
             <div className="footer-info">
-                <img src="./image/thanhtoan.jpg" alt="thanhtoan"></img>
-                <img src="./image/giaohang.jpg" alt="giaohang"></img>
-                <img src="./image/dangky.jpg" alt="dangky"></img>
+                <img src="../image/thanhtoan.jpg" alt="thanhtoan"></img>
+                <img src="../image/giaohang.jpg" alt="giaohang"></img>
+                <img src="../image/dangky.jpg" alt="dangky"></img>
             </div>
             <div className="footer-line">
                 <span >Copyright © 2021 luxuryhanoi.vn</span>
