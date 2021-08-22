@@ -16,7 +16,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useUser } from '../../redux/hooks/User';
 import { useHistory } from 'react-router-dom';
-import FacebookLogin from 'react-facebook-login';
+// import FacebookLogin from 'react-facebook-login';
 const useStyles = makeStyles((theme) => ({
   paper: {
     paddingTop: '100px',
@@ -63,18 +63,18 @@ const SignIn = () => {
     name:'',
     picture:''
   })
-  const [faceS, setFaceS] = useState();
-  const [faceImg, setFaceImg] = useState();
-  const componentClicked = () => {
-    localStorage.setItem('users', JSON.stringify(faceS));
-    localStorage.setItem('usersImg', JSON.stringify(faceImg));
-      history.push('/')
+  // const [faceS, setFaceS] = useState();
+  // const [faceImg, setFaceImg] = useState();
+  // const componentClicked = () => {
+  //   localStorage.setItem('users', JSON.stringify(faceS));
+  //   localStorage.setItem('usersImg', JSON.stringify(faceImg));
+  //     history.push('/')
       
-  }
-  const responseFacebook = (response) => {
-    setFaceS(response.name);
-    setFaceImg(response.picture.data.url)
-  }
+  // }
+  // const responseFacebook = (response) => {
+  //   setFaceS(response.name);
+  //   setFaceImg(response.picture.data.url)
+  // }
 
   useEffect(() => {
     if (user.userList.some(u => u.userName === infoUser.userName && u.password === infoUser.password)) {
@@ -142,7 +142,7 @@ const SignIn = () => {
               Đăng Nhập
             </Button>
 
-              {
+              {/* {
                 faceState.auth ? (<>hi</>) : (
                   <FacebookLogin
                 appId="2932480383659231"
@@ -151,7 +151,7 @@ const SignIn = () => {
                 onClick={componentClicked}
                 callback={responseFacebook} />
                 )
-              }
+              } */}
             <Grid container>
               <Grid item xs>
 
