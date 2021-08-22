@@ -28,7 +28,7 @@ const Thanhtoan = (props) => {
                 <div className="container">
                     <div className="content-main">
                         <div className="main-title">
-                            <h1><Link to="">THANH TOÁN</Link></h1>
+                            <h1><Link to="/thanhtoan">THANH TOÁN</Link></h1>
                         </div>
                         <div className="form-TT">
                             <table >

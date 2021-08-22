@@ -113,15 +113,13 @@ const GioHang = (props) => {
                 <div className="head-line">
                     <div className="container">
                         <Link to="">Trangchu</Link>
-                        &nbsp; / &nbsp;
-                        <Link to="">Dongho</Link>
                     </div>
                 </div>
                 <section className="content">
                     <div className="container">
                         <div className="content-main">
                             <div className="main-title">
-                                <h1><Link to="">GIỎ HÀNG</Link></h1>
+                                <h1><Link to="/giohang">GIỎ HÀNG</Link></h1>
                             </div>
                             <form>
                                 <table >

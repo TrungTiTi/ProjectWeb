@@ -6,10 +6,11 @@ import Footer from '../components/Footer';
 
 const WatchBrand = (props) => {
     
-    const dataBrand =  JSON.stringify(props.location.bProduct);
-    if (dataBrand) {
-        localStorage.setItem('watchP', dataBrand)
-    }
+    // const dataBrand =  JSON.stringify(props.location.bP);
+    // console.log('cay',props.location.bP);
+    // if (dataBrand) {
+    //     localStorage.setItem('watchP', dataBrand)
+    // }
     let watchP = JSON.parse(localStorage.getItem('watchP'));
 
     if(localStorage.getItem('users')){
@@ -25,7 +26,7 @@ const WatchBrand = (props) => {
                 <div className="container">
                         <div className="content-main">
                             <div className="main-title">
-                                <h1><Link to="">SẢN PHẨM TÌM KIẾM</Link></h1>
+                                <h1>SẢN PHẨM TÌM KIẾM</h1>
                             </div>
                             <div className="main-box">
 
@@ -38,7 +39,7 @@ const WatchBrand = (props) => {
                                             <div className="products-img">
                                                 <Link to={{pathname:"/detail", url:p}}><img src={p.img[0].image} /></Link>
                                             </div>
-                                            <h3><Link to="">{p.decription}</Link></h3>
+                                            <h3><Link to={{pathname:"/detail", url:p}}>{p.decription}</Link></h3>
                                             <div className="products-lable">{p.label}</div>
                                             <div className="products-price">{p.price.toLocaleString()} VNĐ</div>
                                         </div>  

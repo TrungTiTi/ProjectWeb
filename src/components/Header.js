@@ -46,17 +46,17 @@ const Header = () =>{
         str = str.replace(/\u02C6|\u0306|\u031B/g, "");
         return str;
     }
-  const [sP, setSP]= useState();
+  let test = [];
     const Search = () => {
         let phone = phones.data;
         let product = products.data;
         let valueInput = document.getElementById("iconSearch").value;
         let searchProduct = [];
+    
         for(let i=0; i< lengthP; i++){
+            
             if(valueInput && (NoneVN(product[i].decription ).includes(valueInput.toLowerCase()))){
-                searchProduct.push(product[i])
-            }else{
-                console.log('aaaaaaaaaaaaaa')
+                searchProduct.push(product[i]);
             }
         }
         for(let i=0; i< lengthPh; i++){
@@ -64,8 +64,12 @@ const Header = () =>{
                 searchProduct.push(phone[i])
             }
         }
-        setSP(searchProduct);  
+        test = searchProduct ;
+        if(test){
+            localStorage.setItem('watchP', JSON.stringify(test))
+        }
     }
+    
     let noneBrand = [];
     let hublotBrand = []; let patekBrand = []; let audemarsBrand = []; let tagBrand = []; let vacheronBrand = [];
     let iphoneBrand = []; let samsungBrand = []; let xiaomiBrand = []; let oppoBrand = []; let realmeBrand = []; let vivoBrand = []; let vsmartBrand = [];
@@ -173,7 +177,7 @@ const Header = () =>{
                     <form>
                         <input type="text" placeholder="search" id="iconSearch" ></input> 
                        <div className="icon-search"  onClick={Search} >
-                            <Link to={{pathname: '/dongho/watch' , bProduct: sP }}> 
+                            <Link to={{pathname: '/dongho/watch' }}> 
                                 <SearchIcon />
                             </Link>
                        </div>
@@ -306,9 +310,9 @@ const Header = () =>{
                         </ul>
                     </div>
                     <form>
-                        <input type="text" placeholder="search"></input> 
+                        <input type="text" placeholder="search" id="iconSearch"></input> 
                         <div className="icon-search"  onClick={Search} >
-                            <Link to={{pathname: '/dongho/watch' , bProduct: sP }}> 
+                            <Link to={{pathname: '/dongho/watch' }}> 
                                 <SearchIcon />
                             </Link>
                        </div>

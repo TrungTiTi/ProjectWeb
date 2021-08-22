@@ -12,7 +12,6 @@ import GioHang from './pages/Giohang';
 import Thanhtoan from './pages/Thanhtoan';
 import SignIn from './components/SignIn/index';
 import SignUp from './components/SignUp';
-
 import Kienthuc1 from './pages/Khampha/Kienthuc1';
 import Kienthuc2 from './pages/Khampha/Kienthuc2';
 import Kienthuc3 from './pages/Khampha/Kienthuc3';
