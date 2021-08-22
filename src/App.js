@@ -22,8 +22,7 @@ import Tintuc1 from './pages/Dichvu/Tintuc1';
 import Tintuc2 from './pages/Dichvu/Tintuc2';
 import Tintuc3 from './pages/Dichvu/Tintuc3';
 import {history} from './heper/history'
-import Header from './components/Header';
-import Footer from './components/Footer';
+import SignOut from './components/SignOut';
 
 function App() {
 
@@ -35,6 +34,8 @@ function App() {
             <Route path="/sign-up" component = {SignUp}></Route>
 
             <Route path="/sign-in" component = {SignIn}></Route>
+
+            <Route path="/sign-out" component = {SignOut}></Route>
 
             <Route exact path ='/' component = {Trangchu}></Route>
 
@@ -75,16 +76,16 @@ function App() {
             >
             </Route>
 
-            <Route path= '/kapa'> <Header /> <Kienthuc/> <Footer /> </Route>
+            <Route path= '/kapa'>  <Kienthuc/> </Route>
 
-            <Route path= '/khampha/kienthuc1'> <Header /> <Kienthuc1/> <Footer /> </Route>
+            <Route path= '/khampha/kienthuc1'> <Kienthuc1/>  </Route>
 
-            <Route path= '/khampha/kienthuc2'> <Header /> <Kienthuc2/> <Footer /> </Route>
-            <Route path= '/khampha/kienthuc3'> <Header /> <Kienthuc3/> <Footer /> </Route>
-            <Route path= '/dv'> <Header /> <Tintuc/> <Footer /> </Route>
-            <Route path= '/dichvu/tintuc1'> <Header /> <Tintuc1/> <Footer /> </Route>
-            <Route path= '/dichvu/tintuc2'> <Header /> <Tintuc2/> <Footer /> </Route>
-            <Route path= '/dichvu/tintuc3'> <Header /> <Tintuc3/> <Footer /> </Route>
+            <Route path= '/khampha/kienthuc2'>  <Kienthuc2/>  </Route>
+            <Route path= '/khampha/kienthuc3'>  <Kienthuc3/>  </Route>
+            <Route path= '/dv'>  <Tintuc/> </Route>
+            <Route path= '/dichvu/tintuc1'> <Tintuc1/>  </Route>
+            <Route path= '/dichvu/tintuc2'>  <Tintuc2/>  </Route>
+            <Route path= '/dichvu/tintuc3'>  <Tintuc3/> </Route>
            
           </Switch>
           </ScrollToTop>

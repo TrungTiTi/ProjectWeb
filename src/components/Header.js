@@ -148,6 +148,7 @@ const Header = () =>{
         hand();
     },[JSON.parse(localStorage.getItem('products'))])
     
+    const fb = JSON.parse(localStorage.getItem('usersImg'));
     return(
         
         <header className="header"  >
@@ -267,43 +268,7 @@ const Header = () =>{
 
                                </div>
                             </li>
-                            <li><Link to="">PHỤ KIỆN</Link>
-                                <div className="dropdown">
-                                   
-                                    <div className="dropdown-title">
-                                       <strong>PHỤ KIỆN</strong>
-                                       <hr />
-                                    </div>
-                                    <div className="dropdown-content">
-                                      <div className="dropdown-content1">
-                                           <strong>Phụ Kiện Điện Thoại</strong>
-                                           <div>
-                                               <ul>
-                                                   <li><Link to="">Pin sạc dự phòng</Link></li>
-                                                   <li><Link to="">Loa, tai nghe</Link></li>
-                                                   <li><Link to="">Củ sạc, cáp sạc</Link></li>
-                                                   <li><Link to="">Giá đỡ điện thoại</Link></li>
-                                                   
-                                               </ul>
-                                               <ul>
-                                                    <li><Link to="">Thẻ nhớ, usb</Link></li>
-                                                    <li><Link to="">Bao da, ốp lưng</Link></li>
-                                               </ul>
-                                           </div>
-                                      </div>
-                                      <div className="dropdown-content2">
-                                           <strong>Phụ Kiện Đồng Hồ</strong>
-                                           <ul>
-                                                <li><Link to="">Hộp lên cót đồng hồ</Link></li>
-                                                <li><Link to="">Dây đeo đồng hồ</Link></li>
-                                                <li><Link to="">Hộp đựng đồng hồ</Link></li>
-                                                <li><Link to="">Các phụ kiện khác</Link></li>
-                                                   
-                                           </ul>
-                                      </div>
-                                  </div>
-                               </div>
-                            </li>
+                            
                             <li><Link to="/kapa">KHÁM PHÁ</Link>
                                 <div className="dropdown">
                                    
@@ -336,7 +301,8 @@ const Header = () =>{
                                     </div>
                                 </div>
                             </li>
-
+                            <li className="img-fb"><Link to ="/sign-out"><img src={fb} alt="Tôi" /></Link>
+                            </li>
                         </ul>
                     </div>
                     <form>

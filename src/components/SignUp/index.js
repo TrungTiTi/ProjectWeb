@@ -35,9 +35,9 @@ const useStyles = makeStyles((theme) => ({
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
-  // customContainer: {
-  //   position: "relative",
-  // },
+  customContainer: {
+    position: "relative",
+  },
   customSpin: {
     position: "absolute",
     zIndex: 2,
@@ -53,15 +53,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const schemaSignUp = yup.object().shape({
-  firstName: yup.string().required("This is required!"),
-  lastName: yup.string().required("This is required!"),
-  userName: yup.string().required("This is required!"),
+  firstName: yup.string().required("Điều này bắt buộc!"),
+  lastName: yup.string().required("Điều này bắt buộc!"),
+  userName: yup.string().required("Điều này bắt buộc!"),
   password: yup
     .string()
-    .required("This is required!")
+    .required("Điều này bắt buộc!")
     .matches(
       /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/,
-      "Password not strong!"
+      "Mật khẩu phải có 8 ký tự trở lên, 1 số, 1 chữ in hoa, 1 ký tự đặc biệt!"
     ),
 });
 
@@ -90,7 +90,7 @@ const SignUp = () => {
     actionss.getUsers();
     if((user.userList) && (user.userList.length===0)){
       actionss.registerUser(data); 
-      alert('Đăng ký thành công') ;
+      alert('Đăng ký thành công, Tiến hành đăng nhập') ;
      
     }else if((user.userList) && (user.userList.length>0)){
       for(let i=0; i < user.userList.length; i++){
@@ -99,7 +99,7 @@ const SignUp = () => {
  
       if(!arr.includes(inforUser)){
         actionss.registerUser(data);
-        alert('Đăng ký thành công') ;
+        alert('Đăng ký thành công, Tiến hành đăng nhập') ;
 
       }else{
         alert('Tài khoản đã có')
@@ -114,7 +114,7 @@ const SignUp = () => {
     <Container
       component="main"
       maxWidth="xs"
-      
+      className={classes.customContainer}
     >
       <CssBaseline />
       <div className={classes.paper}>

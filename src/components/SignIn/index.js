@@ -36,11 +36,12 @@ const useStyles = makeStyles((theme) => ({
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
+
 }));
 
 const schemaSignIn = yup.object().shape({
-  userName: yup.string().required('This is required!'),
-  password: yup.string().required('This is required!')
+  userName: yup.string().required('Điều này là bắt buộc!'),
+  password: yup.string().required('Điều này là bắt buộc!')
 })
 
 const SignIn = () => {
@@ -56,8 +57,6 @@ const SignIn = () => {
   const { user, actionss } = useUser()
   const history = useHistory()
 
-  console.log('list user', user.userList)
-  console.log('infoUser', infoUser)
 
   const[faceState,setFaceState] = useState({
     auth:false,
@@ -65,19 +64,21 @@ const SignIn = () => {
     picture:''
   })
   const [faceS, setFaceS] = useState();
+  const [faceImg, setFaceImg] = useState();
   const componentClicked = () => {
-    localStorage.setItem('users', faceS)
+    localStorage.setItem('users', JSON.stringify(faceS));
+    localStorage.setItem('usersImg', JSON.stringify(faceImg));
       history.push('/')
+      
   }
   const responseFacebook = (response) => {
     setFaceS(response.name);
-    console.log(response)
+    setFaceImg(response.picture.data.url)
   }
 
   useEffect(() => {
     if (user.userList.some(u => u.userName === infoUser.userName && u.password === infoUser.password)) {
-      console.log('vao roi');
-      localStorage.setItem('users', JSON.stringify(infoUser))
+      localStorage.setItem('users', JSON.stringify(infoUser.userName))
       history.push('/')
     }
   }, [user.userList, infoUser, history])
@@ -149,7 +150,6 @@ const SignIn = () => {
                 fields="name,picture"
                 onClick={componentClicked}
                 callback={responseFacebook} />
-
                 )
               }
             <Grid container>

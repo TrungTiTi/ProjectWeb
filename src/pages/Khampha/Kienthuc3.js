@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link} from "react-router-dom";
 import SignIn from '../../components/SignIn';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const Kienthuc3 = () => {
     if(localStorage.getItem('users')){
     return (
         <div>
+            <Header></Header>
             <div className="head-line">
                 <div className="container">
                     <Link to="/">Trangchu</Link>
@@ -41,6 +44,7 @@ const Kienthuc3 = () => {
                     </div>
                 </div>
             </section>
+            <Footer></Footer>
         </div>
     );}else{
         return(
