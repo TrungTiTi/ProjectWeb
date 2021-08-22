@@ -98,3 +98,17 @@
     }
     
 }
+@media only screen and (max-width:576px)  {
+    .product-detail{
+        display: block;
+        .left-detail{
+            width: 100%;
+        }
+        .right-detail{
+            width: 100%;
+            .detail-right-main button{
+                width: 30%;
+            }
+        }
+    }
+}

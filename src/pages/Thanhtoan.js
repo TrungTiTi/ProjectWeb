@@ -30,28 +30,30 @@ const Thanhtoan = (props) => {
                         <div className="main-title">
                             <h1><Link to="">THANH TOÁN</Link></h1>
                         </div>
-                        <table >
-                            <tbody>
-                                <tr>
-                                    <td align="center" className="td-stt">STT</td>
-                                    <td align="center" className="td-imgImage">ẢNH</td>
-                                    <td align="center" className="td-name">TÊN SẢN PHẨM</td>
-                                    <td align="center" className="td-quantity">SỐ LƯỢNG</td>
-                                    <td align="center" className="td-priceText">ĐƠN GIÁ</td>
-                                    <td align="center" className="td-priceText">THÀNH TIỀN</td>
-                                </tr>
-                                {PayMent  ? PayMent.map((p, index) => (
-                                <tr key={index.toString()} >
-                                    <td align="center" className="td-stt">{index + 1}</td>
-                                    <td align="center" className="td-imgImage"><img src ={p.img} className="td-image" /></td>
-                                    <td align="center" className="td-name">{p.decription}</td>
-                                    <td align="center" className="td-quantity"> {p.q}  </td>
-                                    <td align="center" className="td-price">{p.price}</td>
-                                    <td align="center" className="td-price">{p.pay}</td>
-                                </tr>
-                                )) :(<></>) }
-                            </tbody>
-                        </table>
+                        <div className="form-TT">
+                            <table >
+                                <tbody>
+                                    <tr>
+                                        <td align="center" className="td-stt">STT</td>
+                                        <td align="center" className="td-imgImage">ẢNH</td>
+                                        <td align="center" className="td-name">TÊN SẢN PHẨM</td>
+                                        <td align="center" className="td-quantity">SỐ LƯỢNG</td>
+                                        <td align="center" className="td-priceText">ĐƠN GIÁ</td>
+                                        <td align="center" className="td-priceText">THÀNH TIỀN</td>
+                                    </tr>
+                                    {PayMent  ? PayMent.map((p, index) => (
+                                    <tr key={index.toString()} >
+                                        <td align="center" className="td-stt">{index + 1}</td>
+                                        <td align="center" className="td-imgImage"><img src ={p.img} className="td-image" /></td>
+                                        <td align="center" className="td-name">{p.decription}</td>
+                                        <td align="center" className="td-quantity"> {p.q}  </td>
+                                        <td align="center" className="td-price">{p.price}</td>
+                                        <td align="center" className="td-price">{p.pay}</td>
+                                    </tr>
+                                    )) :(<></>) }
+                                </tbody>
+                            </table>
+                        </div>
                         <div align="right" className="cart-pay">Tổng tiền thanh toán:<span >{totalMoney.toLocaleString()} VND</span></div>
                     </div>
                 </div>
