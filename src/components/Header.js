@@ -51,6 +51,7 @@ const Header = () =>{
         let phone = phones.data;
         let product = products.data;
         let valueInput = document.getElementById("iconSearch").value;
+        let valueInput2 = document.getElementById("iconSearch-2").value;
         let searchProduct = [];
     
         for(let i=0; i< lengthP; i++){
@@ -58,9 +59,15 @@ const Header = () =>{
             if(valueInput && (NoneVN(product[i].decription ).includes(valueInput.toLowerCase()))){
                 searchProduct.push(product[i]);
             }
+            if(valueInput2 && (NoneVN(product[i].decription ).includes(valueInput2.toLowerCase()))){
+                searchProduct.push(product[i]);
+            }
         }
         for(let i=0; i< lengthPh; i++){
             if(valueInput && (NoneVN(phone[i].decription ).includes(valueInput.toLowerCase()))){
+                searchProduct.push(phone[i])
+            }
+            if(valueInput2 && (NoneVN(phone[i].decription ).includes(valueInput2.toLowerCase()))){
                 searchProduct.push(phone[i])
             }
         }
@@ -310,7 +317,7 @@ const Header = () =>{
                         </ul>
                     </div>
                     <form>
-                        <input type="text" placeholder="search" id="iconSearch"></input> 
+                        <input type="text" placeholder="search" id="iconSearch-2"></input> 
                         <div className="icon-search"  onClick={Search} >
                             <Link to={{pathname: '/dongho/watch' }}> 
                                 <SearchIcon />
