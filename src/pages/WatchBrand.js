@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 const WatchBrand = (props) => {
     
     const dataBrand =  JSON.stringify(props.location.bProduct);
-    
+    console.log('cay',dataBrand)
     if (dataBrand) {
         localStorage.setItem('watchP', dataBrand)
     }
