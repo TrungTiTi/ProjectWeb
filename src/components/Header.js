@@ -152,8 +152,6 @@ const Header = () =>{
         if(res){
             setNoteP(res.length);
         }
-        
-        console.log(noteP)
     })
     useEffect(() => {
         hand();
