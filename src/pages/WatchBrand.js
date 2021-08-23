@@ -6,11 +6,11 @@ import Footer from '../components/Footer';
 
 const WatchBrand = (props) => {
     
-    // const dataBrand =  JSON.stringify(props.location.bP);
-    // console.log('cay',props.location.bP);
-    // if (dataBrand) {
-    //     localStorage.setItem('watchP', dataBrand)
-    // }
+    const dataBrand =  JSON.stringify(props.location.bProduct);
+    
+    if (dataBrand) {
+        localStorage.setItem('watchP', dataBrand)
+    }
     let watchP = JSON.parse(localStorage.getItem('watchP'));
 
     if(localStorage.getItem('users')){
