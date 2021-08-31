@@ -27,7 +27,8 @@ const GioHang = (props) => {
     useEffect(() => {
         // let products = [];
         // Nếu có sản phẩm trong localstorage
-        if(localP[0] !== null){
+        if(localP){
+            if(localP[0] !== null){
             products = JSON.parse(localStorage.getItem('products'));
             let arr = [];
             for(let each of products){
@@ -40,6 +41,7 @@ const GioHang = (props) => {
                 }
             } 
         }else{products.push(takeData);} //chưa có sản phẩm trong local thì đẩy data vào local
+        }
         
         localStorage.setItem('products', JSON.stringify(products));
     },[products]);
