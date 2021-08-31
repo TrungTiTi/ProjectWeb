@@ -23,7 +23,7 @@ const Kienthuc3 = () => {
                         <div className="kienthuc1">
                             <h3 >Chung kết Euro 2020: 'Tân binh' Anh thách thức Ý già dặn</h3> <br />
                             <div>
-                                <img src="../image/euro2020.jpg" /> 
+                                <img src="../image/euro2020.jpg" alt="anh" /> 
                             </div> <br />
 
                             <p>Tuyển Anh cần tới 120 phút để vượt qua Đan Mạch để có lần đầu vào chung kết Euro. Họ đã trải qua tổng cộng 6 trận đấu tại vòng bảng và vòng knock-out, ghi được 10 bàn và chỉ thủng lưới 1 bàn.</p>

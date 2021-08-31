@@ -44,7 +44,7 @@ const Thanhtoan = (props) => {
                                     {PayMent  ? PayMent.map((p, index) => (
                                     <tr key={index.toString()} >
                                         <td align="center" className="td-stt">{index + 1}</td>
-                                        <td align="center" className="td-imgImage"><img src ={p.img} className="td-image" /></td>
+                                        <td align="center" className="td-imgImage"><img src ={p.img} className="td-image" alt="anh" /></td>
                                         <td align="center" className="td-name">{p.decription}</td>
                                         <td align="center" className="td-quantity"> {p.q}  </td>
                                         <td align="center" className="td-price">{p.price}</td>

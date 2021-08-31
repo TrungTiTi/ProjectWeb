@@ -32,7 +32,7 @@ const Trangchu = () =>{
             return arr.map((p, index) => (                               
                 <div className="main-products" key= {index.toString()}>
                     <div className="products-img">
-                    <Link to={{ pathname:`/detail/${p.id}`, id : p.id, url: p }}><img src={p.img[0].image} /></Link>
+                    <Link to={{ pathname:`/detail/${p.id}`, id : p.id, url: p }}><img src={p.img[0].image} alt="anh" /></Link>
                     </div>
                     <h3><Link to={{ pathname:"/detail", url: p }} >{p.decription}</Link></h3>
                     <div className="products-lable">{p.label}</div>
@@ -44,7 +44,7 @@ const Trangchu = () =>{
         return arr1.map((p, index) => (                               
             <div className="main-products" key= {index.toString()}>
                 <div className="products-img">
-                <Link to={{ pathname:`/detail/${p.id}`, id : p.id, url: p }}><img src={p.img[0].image} /></Link>
+                <Link to={{ pathname:`/detail/${p.id}`, id : p.id, url: p }}><img src={p.img[0].image} alt="anh" /></Link>
                 </div>
                 <h3><Link to={{ pathname:"/detail", url: p }} >{p.decription}</Link></h3>
                 <div className="products-lable">{p.label}</div>

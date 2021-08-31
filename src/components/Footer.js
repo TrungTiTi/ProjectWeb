@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const Footer = () => {
 
     return(
-        <Router>
+        <>
             <footer className="footer">
                 <div className="footer-container">
                     <div className="footer-lienhe">
@@ -39,7 +39,7 @@ const Footer = () => {
                 <span >Copyright © 2021 luxuryhanoi.vn</span>
             </div>
             
-        </Router>
+        </>
     )
 }
 

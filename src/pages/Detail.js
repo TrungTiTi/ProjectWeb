@@ -59,7 +59,7 @@ const Detail = (props) => {
     }
 
     const showhide = () => {
-        if(hide.current.style.display == 'none'){
+        if(hide.current.style.display === 'none'){
             hide.current.style.display = 'block'
         }else{
             hide.current.style.display = 'none'
@@ -84,12 +84,12 @@ const Detail = (props) => {
                         <div className="product-detail">
                             <div className="left-detail">
                                 <div className="detail-big-img">
-                                    <img src={imagec}></img>
+                                    <img src={imagec} alt="anh" ></img>
                                 </div>
                                 <div className="detail-small-img">
                                     <div>        
-                                        <img src={detailId.img[1].image} onClick = {changeImg} ref={border1} />
-                                        <img src={detailId.img[0].image} onClick = {changeImg1} ref={border2} />
+                                        <img src={detailId.img[1].image} onClick = {changeImg} ref={border1} alt="anh" />
+                                        <img src={detailId.img[0].image} onClick = {changeImg1} ref={border2} alt="anh" />
                                     </div>
                                     
                                 </div>
@@ -130,7 +130,7 @@ const Detail = (props) => {
                             <h3>Thông số kỹ thuật</h3>
                             <p>{detailId.decript}</p>
                             <div>
-                                <img src={detailId.img[1].image}></img>
+                                <img src={detailId.img[1].image} alt="anh" ></img>
                             </div>
                            
                         </div>

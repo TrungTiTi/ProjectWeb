@@ -23,10 +23,11 @@ const GioHang = (props) => {
     }
     const [info,setInfo] = useState(); // lấy thông tin sản phẩm
     let products = [];
+    let localP = JSON.parse(localStorage.getItem('products'));
     useEffect(() => {
         // let products = [];
         // Nếu có sản phẩm trong localstorage
-        if(localStorage.getItem('products') !==null){
+        if(localP[0] !== null){
             products = JSON.parse(localStorage.getItem('products'));
             let arr = [];
             for(let each of products){
@@ -80,8 +81,10 @@ const GioHang = (props) => {
         let c=0
         let b=info;
         if(b){
-            for(let i=0; i< b.length; i++){
-                c += b[i].pay
+            if(b[0] !== null){
+                for(let i=0; i< b.length; i++){
+                    c += b[i].pay
+                }
             }
         }
         payment=c
@@ -133,10 +136,10 @@ const GioHang = (props) => {
                                             <td align="center" className="td-priceText">THÀNH TIỀN</td>
                                             <td align="center" className="td-delete">XÓA</td>
                                         </tr>
-                                    {info  ? info.map((p, index) => (
+                                    {info && info[0] !== null  ? info.map((p, index) => (
                                         <tr key={index.toString()} >
                                             <td align="center" className="td-stt">{index + 1}</td>
-                                            <td align="center" className="td-imgImage"><img src ={p.img} className="td-image"></img></td>
+                                            <td align="center" className="td-imgImage"><img src ={p.img} className="td-image" alt="anh" ></img></td>
                                             <td align="center" className="td-name">{p.decription}</td>
                                             <td align="center" className="td-quantity">  
                                                 <TextField
